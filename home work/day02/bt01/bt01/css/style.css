@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+header {
+    background-image: url("../images/background-pattern.jpg");
+}
+
+header h1 {
+    color: white;
+    padding: 15px;
+}
+
+header strong {
+    color: red;
+}
+
+header nav {
+    background-color: gray;
+}
+
+header ul {
+    list-style: none;
+    margin: 5px;
+}
+
+header li {
+    display: inline-block;
+    padding: 15px;
+    color: white;
+}
+
+body {
+    background-color: wheat;
+}
+
+main {
+    margin: 30px;
+
+}
+
+main figure {
+    background-color: white;
+    margin: 3px;
+    padding: 50px;
+    display: block;
+}
+
+main img {
+    border: 2px solid black;
+    display: block;
+
+
+
+}
+
+img strong {
+    text-align: center;
+
+}
+
+figure h1 {
+    margin-left: 650px;
+
+}
+
+.bar {
+    background-image: url("../images/background-pattern.jpg");
+
+    padding: 3px;
+
+}
+
+.bar h1 {
+    color: aliceblue;
+}
+
+section .setsion-back {
+    background-color: white;
+    padding: 3px;
+}
+
+section .foote {
+    background-color: grey;
+    padding: 3px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: red;
+
+}
+
+section img .student {
+    border: 2px solid black;
+    margin: 30px;
+    padding: 30px;
+    /* float: left; */
+}
