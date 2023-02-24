@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+
+.right {
+    width: 800px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 30px auto;
+    padding: 10px;
+     background-color: #FED049;
+} 
+
+.boxA {
+    background-color: #00757F;
+}
+.boxB {
+    background-color: purple;
+}
+
+p.pdropcap:first-letter {
+    float: left;
+    padding: 4px 8px 0 0;
+    display: inline-block;
+    color: red;
+    font: 30px Georgia, Times, serif;
+  }  

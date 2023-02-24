@@ -1,0 +1,24 @@
+.btn-link{
+    color: #444;
+    font: 12px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background: url(../images/bg_button_a.gif) right top no-repeat;
+    padding-right: 18px;
+    display: block;
+    float: left;
+}
+
+.btn-link span{
+    background:url(../images/bg_button_span.gif) left top no-repeat;
+    padding: 5px 0px 4px 18px;
+    display: block;
+}
+
+.btn-link:hover{
+    color: #000;
+    background: url(../images/bg_button_a.gif) right bottom no-repeat;
+}
+
+.btn-link:hover span{
+    background:url(../images/bg_button_span.gif) left bottom no-repeat;
+}
