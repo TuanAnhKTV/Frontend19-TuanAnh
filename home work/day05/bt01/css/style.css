@@ -1,0 +1,95 @@
+:root {
+    --color-purple: #90189a;
+    --color-purple-dark: #6e4b71;
+    --color-purple-black: #77507a;
+    --color-black: #000000;
+    --color-red: #ff0000;
+    --color-white: #f2f2f2;
+    --color-white2: #f0eef0;
+
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle, rgba(144,24,154,1) 0%, rgba(57,25,57,1) 60%);
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-white);
+    border-radius: 15px 15px 15px;
+
+}
+
+.form-header {
+    border: 2px solid var(--color-purple);
+    height: 70px;
+    width: 500px;
+    background-color: var(--color-purple-dark);
+}
+
+h2 {
+    display: inline-block;
+    margin: 20px;
+}
+.form-header a {
+    right: 159px;
+    color: var(--color-white2);
+}
+
+
+.form-body {
+    border: 2px solid var(--color-white);
+    height: 250px;
+    width: 500px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    padding: 5px;
+    display: inline-block;
+}
+
+input {
+    width: 480px;
+    height: 50px;
+    background-color: var(--color-white2);
+    border-radius: 5px 5px;
+    border: 2px solid gray;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-footer {
+    margin: 30px;
+    padding: 30px;
+}
+
+button {
+    margin: 3px;
+    background-color: var(--color-purple-black);
+    width: 100px;
+    height: 40px;
+    color: var(--color-white);
+    font-size: 16px;
+    font-family: auto;
+    border: 3px;
+    border-radius: 5px 5px;
+}
+a {
+    margin: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
