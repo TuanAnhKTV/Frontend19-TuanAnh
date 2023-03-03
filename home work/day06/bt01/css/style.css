@@ -1,0 +1,78 @@
+:root {
+  --color-purple: #90189a;
+  --color-purple-dark: #6e4b71;
+  --color-purple-black: #77507a;
+  --color-black: #000000;
+  --color-red: #ff0000;
+  --color-white: #f2f2f2;
+  --color-whitesmoke: whitesmoke;
+
+}
+
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-white);
+  padding: 30px;
+}
+
+.container {
+  max-width: 850px;
+  width: 100%;
+  background: var(--color-whitesmoke);
+  padding: 5px 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 5px;
+
+}
+
+.container .form {
+  height: 100%;
+  width: 100%;
+  background: var(--color-white);
+  position: relative;
+
+}
+
+.form-title {
+  display: inline-block;
+  background: linear-gradient(180deg, rgba(144, 24, 154, 1) 13%, rgba(90, 24, 151, 1) 100%, rgba(25, 56, 57, 1) 100%);
+  color: var(--color-white);
+  padding: 30px;
+  width: 300px;
+  height: 450px;
+
+}
+
+.form-left {
+  padding: 10px;  
+}
+
+.form-content {
+  display: inline-block;
+  padding: 15px;
+  width: 450px;
+  height: 500px;
+}
+
+input[type=text] {
+  width: 450px;
+  height: 35px;
+  padding: 13px;
+  border-radius: 5px 5px;
+}
+button {
+  cursor: pointer;
+}
